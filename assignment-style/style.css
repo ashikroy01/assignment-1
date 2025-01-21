@@ -1,0 +1,116 @@
+
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+.head-title {
+color: #86a18f;
+font-size: 24px;
+
+
+
+}
+.section-info{
+    margin: 0px;
+    padding: 100px;
+    
+ 
+
+
+
+
+}
+.head-titl-1{
+font-weight: bold;
+font-size: 56px;
+
+
+
+}
+.div-title{
+ padding: 117 px 598px 60px;
+ margin: 10px;
+
+}
+.main-box{
+padding:100px;
+background-color: #C6E4D6;
+display: flex;
+ justify-content:space-between; 
+text-align:left; 
+border-radius: 24px;
+
+
+
+}
+.btn-primary{
+    padding: 34px 17px;
+    width: 270px;
+    
+background-color: #006A50;
+border-radius: 8px;
+font-size: 18px;
+font-weight:600px;
+border: none;
+color: #FFFFFF;
+
+}
+.section-head{
+ font-weight: bold;
+ font-size: 40px;
+
+
+}
+.section-description{
+ font-size: 16px;
+ color: #0E0E0E;
+
+
+}
+.btn-title{
+background-color: rgba(84, 144, 245, 1);
+border-radius: 8px;
+font-weight: 600;
+font-size: 16px;
+padding: 20px;
+border: none;
+color: rgba(255, 255, 255, 1); 
+
+}
+.container{
+
+    display: flex;
+    gap: 24px;
+    justify-content:space-around;
+    align-items:first baseline;
+
+}
+.container-head{
+ font-weight: bold;
+ font-size: 20px;
+
+
+}
+
+.container-description{
+
+    
+}
+.container-title{
+
+    padding: 30px;
+    background-color:rgba(84, 144, 245, 0.2);
+    border-radius: 18px;
+    border: none;
+}
+.container-title-1{
+
+    background-color: rgba(198, 228, 214, 1);
+
+}
+.container-title-2{
+ background-color: rgba(247, 235, 207, 1);
+
+}
