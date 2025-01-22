@@ -194,3 +194,16 @@ font-weight: bold;
 font-size: 40px;
 
 }
+.div-lest{
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.lest-head
+{
+ text-align: center;
+ font-size: 32px;
+ font-weight: bold;
+
+}
