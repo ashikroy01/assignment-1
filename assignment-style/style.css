@@ -3,6 +3,7 @@
     font-family: "Fira Sans", serif;
     font-weight: 100;
     font-style: normal;
+    background-color: rgba(237, 234, 234, 0.936);
   }
 
 .head-title {
@@ -14,12 +15,7 @@ font-size: 24px;
 }
 .section-info{
     margin: 0px;
-    padding: 100px;
-    
- 
-
-
-
+    padding: 50px;
 
 }
 .head-titl-1{
@@ -42,9 +38,8 @@ display: flex;
 text-align:left; 
 border-radius: 24px;
 
-
-
 }
+
 .btn-primary{
     padding: 34px 17px;
     width: 270px;
@@ -57,6 +52,12 @@ border: none;
 color: #FFFFFF;
 
 }
+.text-color{
+color: #050101;
+text-emphasis-color:#050101;
+font-size: 18px;
+
+}
 .section-head{
  font-weight: bold;
  font-size: 40px;
@@ -65,7 +66,7 @@ color: #FFFFFF;
 }
 .section-description{
  font-size: 16px;
- color: #0E0E0E;
+ color: #050101;
 
 
 }
@@ -79,13 +80,17 @@ border: none;
 color: rgba(255, 255, 255, 1); 
 
 }
+.btn-title-1{
+ background-color:rgba(9, 161, 92, 1) ;
+}
+.btn-title-2{
+    background-color: rgba(255, 194, 57, 1);
+}
 .container{
-
     display: flex;
     gap: 24px;
     justify-content:space-around;
     align-items:first baseline;
-
 }
 .container-head{
  font-weight: bold;
@@ -94,23 +99,75 @@ color: rgba(255, 255, 255, 1);
 
 }
 
-.container-description{
-
-    
-}
 .container-title{
-
     padding: 30px;
     background-color:rgba(84, 144, 245, 0.2);
     border-radius: 18px;
     border: none;
 }
 .container-title-1{
-
     background-color: rgba(198, 228, 214, 1);
-
 }
 .container-title-2{
  background-color: rgba(247, 235, 207, 1);
+}
+.main-header{
+ font-weight: bold;
+ font-size: 40px;
+
+}
+.main-container-title
+{
+
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    gap: 32px;
+}
+img{
+ border-radius: 24px;
+}
+.main-container-title{
+background-color: rgba(255, 255, 255, 1);
+padding: 48px;
+border-radius: 24px;
+/* margin: 32px; */
+
+
+}
+.div-container{
+ text-align: center;
+
+
+}
+.text-bold, .div-container-title{
+ font-size: 40px;
+ font-weight: bold;
+
+}
+.div-container-title{
+ background-color: rgba(255, 255, 255, 1);
+ border-radius: 16px;
+ border: none;
+ padding: 40px;
+
+}
+.div-container-1{
+ display: flex;
+ justify-content:space-evenly;
+ 
+ /* padding: 40px; */
+ margin: auto;
+
+}
+.main-div{
+ align-items: center;
+ padding: 100px;
+}
+.div-color{
+    background-color: rgba(198, 228, 214, 1);
+}
+.btn{
+align-items: center;
 
 }
